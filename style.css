@@ -1,0 +1,176 @@
+@font-face {
+	font-family: "Barlow";
+	src: url("./fonts/Barlow/Barlow-BlackItalic.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-BlackItalic.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-Bold.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-BoldItalic.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-ExtraBold.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-ExtraLight.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-ExtraLightItalic.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-Italic.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-Light.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-LightItalic.ttf") format("truetype"),
+		url("./fonts/Barlow/Barlow-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Fraunces";
+	src: url("./fonts/Fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf") format("truetype"),
+		url("./fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf") format("truetype");
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* NAVBAR */
+
+#header-top-bar {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 95%;
+	margin: 0 auto;
+	position: absolute;
+	top: 40px;
+	left: 2.5%;
+}
+
+#navbar-logo {
+	height: 30px;
+	width: auto;
+}
+
+#navbar-links {
+	flex-basis: 45%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+	font-family: "Fraunces";
+	font-weight: 400;
+	font-size: 1em;
+}
+
+#navbar-links ul {
+	text-decoration: none;
+	padding: 0;
+	margin: 10px;
+	padding: 10px 20px;
+}
+
+#contact {
+	text-transform: uppercase;
+	color: black;
+	border-radius: 30px;
+	background-color: white;
+	text-align: center;
+}
+
+#contact:hover {
+	background-color: hsl(206, 70%, 66%);
+	color: white;
+}
+
+/* HEADER */
+
+header {
+	position: relative;
+	width: 100%;
+	height: 0;
+	background-size: contain;
+	padding-top: 55.55%;
+	background-image: url("./images/desktop/image-header.jpg");
+}
+
+header h1 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	top: 30%;
+	margin: 0;
+	font-weight: 900;
+	font-size: 3vw;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+}
+
+#header-arrow {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	bottom: 40%;
+	width: 3vw;
+	height: 10vw;
+	z-index: 5;
+}
+
+/* FRAMES */
+
+.frame {
+	display: flex;
+	flex-direction: row;
+	margin-top: -5px;
+}
+
+.frame-text {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.frame-text h2 {
+	font-size: 3em;
+	font-family: "Fraunces";
+	font-weight: 900;
+}
+
+.frame-text-inner-container p,
+h3 {
+	font-family: "Barlow";
+}
+
+.frame-text-inner-container p {
+	font-weight: light;
+	font-size: 1em;
+}
+
+.frame-text-inner-container h3 {
+	font-weight: medium;
+	text-transform: uppercase;
+}
+
+.frame-text-inner-container h3:hover {
+	text-decoration: underline 4px hsl(51, 100%, 49%);
+}
+
+.frame-text-inner-container {
+	width: 50%;
+}
+
+.frame-image {
+	width: 50%;
+	height: 200%;
+}
+
+.frame-image img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* FRAME ONE */
+
+#frame-one {
+	margin-top: 0;
+}
