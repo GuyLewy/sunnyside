@@ -7,3 +7,5 @@ function OpenMenu() {
 		menu.classList.add("hidden");
 	}
 }
+
+//Test
